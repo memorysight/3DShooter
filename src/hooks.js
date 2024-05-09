@@ -9,7 +9,6 @@ export const usePersonControls = () => {
         Space: "jump"
     }
     
-
     const moveFieldByKey = (key) => keys[key];
 
     const [movement, setMovement] = useState({
