@@ -8,6 +8,7 @@ export const usePersonControls = () => {
         KeyD: "right",
         Space: "jump"
     }
+    
 
     const moveFieldByKey = (key) => keys[key];
 
